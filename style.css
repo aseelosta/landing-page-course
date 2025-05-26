@@ -1,0 +1,231 @@
+/* ===== تنسيقات عامة ===== */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* ===== الهيدر ===== */
+.hero {
+  background: linear-gradient(to right, #3f51b5, #5c6bc0);
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero h1 span {
+  color: #ffeb3b;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ffca28;
+  color: #333;
+  padding: 12px 30px;
+  font-size: 1rem;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ffc107;
+}
+
+/* ===== المميزات ===== */
+.features {
+  background-color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2rem;
+  margin-bottom: 50px;
+  color: #3f51b5;
+}
+
+.feature-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.feature {
+  background-color: #f1f1f1;
+  padding: 30px;
+  border-radius: 15px;
+  width: 280px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.feature i {
+  font-size: 40px;
+  color: #3f51b5;
+  margin-bottom: 15px;
+}
+
+.feature h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* ===== الفوائد ===== */
+.benefits {
+  background-color: #fafafa;
+  padding: 80px 20px;
+}
+
+.benefits h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 50px;
+  color: #3f51b5;
+}
+
+.benefit-list {
+  list-style: none;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.benefit-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  background: white;
+  padding: 20px 25px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.benefit-list li:hover {
+  transform: translateY(-4px);
+}
+
+.benefit-list i {
+  font-size: 30px;
+  color: #4caf50;
+  margin-top: 5px;
+  flex-shrink: 0;
+}
+
+.benefit-list h4 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.benefit-list p {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+/* ===== المدرب ===== */
+.instructor {
+  background-color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.instructor h2 {
+  font-size: 2rem;
+  margin-bottom: 50px;
+  color: #3f51b5;
+}
+
+.instructor-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.instructor-content img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #3f51b5;
+}
+
+.instructor-content .info {
+  max-width: 500px;
+  text-align: right;
+}
+
+.instructor-content .info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.instructor-content .info p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* ===== دعوة التسجيل ===== */
+.cta {
+  background: linear-gradient(to right, #673ab7, #9575cd);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.cta h2 {
+  font-size: 2.3rem;
+  margin-bottom: 20px;
+}
+
+.cta p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.btn-big {
+  background-color: #ffca28;
+  padding: 14px 40px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #333;
+  transition: background 0.3s ease;
+}
+
+.btn-big:hover {
+  background-color: #ffc107;
+}
